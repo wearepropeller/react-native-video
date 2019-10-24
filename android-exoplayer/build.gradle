@@ -26,6 +26,7 @@ dependencies {
     implementation('com.google.android.exoplayer:exoplayer:2.10.4') {
         exclude group: 'com.android.support'
     }
+    implementation("com.facebook.react:react-native:+")
 
     // All support libs must use the same version
     implementation "androidx.annotation:annotation:1.1.0"
